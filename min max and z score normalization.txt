@@ -1,0 +1,15 @@
+data=c(200,300,400,600,1000)
+min_max_normalize=function(x)
+{
+  (x-min(x))/(max(x)-min(x))
+}
+normalized_data=min_max_normalize(data)
+print("min_max_normalization")
+print(normalized_data)
+z_score_normalize=function(x)
+{
+  (x-mean(x))/sd(x)
+}
+normalized_data_z=z_score_normalize(data)
+print("z_score_normalization")
+print(normalized_data_z)
