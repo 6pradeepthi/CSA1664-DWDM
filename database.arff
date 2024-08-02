@@ -1,0 +1,10 @@
+@relation dataset
+@attribute bread(true,false)
+@attribute chips(true,false)
+@attribute banana(true,false)
+@attribute jam(true,false)
+@data
+true,true,true,true,false,false,false,false
+true,true,false,false,true,true,false,false
+true,false,true,false,true.false,true,false
+false,true,false,true,false,true,false,true

@@ -1,0 +1,8 @@
+@relation pradeepthi
+@attribute apple{y,n}
+@attribute banana{y,n}
+@attribute grapes{y,n}
+@data
+y,y,n
+n,y,n
+y,y,y
